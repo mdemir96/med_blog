@@ -1,0 +1,75 @@
+body{
+   text-align: center;
+   background-color: antiquewhite;
+   
+}
+a{
+    text-decoration: none;
+}
+.head a{
+    width: 20%;
+    height: 50px;
+    display:inline-block;
+    padding-top: 25px;
+    font-weight: bold;
+    color: white;    
+    background-color: rgb(133, 102, 67);
+    transition: 0.5s;
+}
+.head a:hover{
+    color:rgb(104, 104, 104);   
+    background-color : rgba(255, 197, 131, 0.685);
+    transition: 0.5s;
+}
+
+.post_div{
+    padding-left: 5px;
+    position: relative;
+    left: 30%;
+    right: 30%;
+    width: 40%;
+    vertical-align: middle;
+    background-color: rgb(250, 222, 186);
+    text-align: left;  
+    transition: 0.5s;
+}
+.post_div:hover{
+    left: 32%;
+    transition: 0.5s;
+}
+.post_div h2{
+
+    padding: 5px;
+    
+}
+.post_div a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 197, 131, 0.685);
+    
+}
+.post_content{
+    position: relative;
+    text-align: left;
+    left: 30%;
+    right: 30%;
+    width: 40%;
+}
+.form{
+    
+}
+
+.bottom_buttons a{
+    
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    width: 10%;
+    height: 30px;
+    padding-top:10px;
+    display:inline-block;
+    background-color: rgba(255, 197, 131, 0.685);
+
+}
